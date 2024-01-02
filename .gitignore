@@ -1,0 +1,212 @@
+.idea /
+
+# Створено https://www.gitignore.io/api/macos,linux,django,python,pycharm
+
+# ## Джанго ###
+* .log
+* .горщик
+* .pyc
+__pycache__ /
+local_settings.py
+db.sqlite3
+ЗМІ
+
+# ## Linux ###
+* ~
+
+# тимчасові файли, які можна створити, якщо процес все ще має відкритий дескриптор видаленого файлу
+.fuse_hidden *
+
+# Параметри каталогу KDE
+.каталог
+
+# Папка кошика Linux, яка може з’явитися на будь-якому розділі чи диску
+.Trash- *
+
+# Файли .nfs створюються, коли відкритий файл видаляється, але доступ до нього все ще здійснюється
+.nfs *
+
+# ## macOS ###
+* .DS_Store
+.AppleDouble
+.LSOverride
+
+# Піктограма має закінчуватися двома \r
+значок
+
+# Мініатюри
+._ *
+
+# Файли, які можуть відображатися в кореневій частині тому
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Кошик
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Каталоги, потенційно створені на віддаленому ресурсі AFP
+.AppleDB
+.AppleDesktop
+Мережева  папка кошика
+Тимчасові  предмети
+.apdisk
+
+# ## PyCharm ###
+# Охоплює IDE JetBrains: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio та Webstorm
+# Посилання: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# Специфічні для користувача речі:
+.idea / ** / workspace.xml
+.idea / ** / tasks.xml
+.ідея / словники
+
+# Чутливі файли або файли з великим відтоком:
+.idea / ** / джерела даних /
+.idea / ** / dataSources.ids
+.idea / ** / dataSources.xml
+.idea / ** / dataSources.local.xml
+.idea / ** / sqlDataSources.xml
+.idea / ** / dynamic.xml
+.idea / ** / uiDesigner.xml
+
+# Gradle:
+.idea / ** / gradle.xml
+.idea / ** / бібліотеки
+
+# CMake
+cmake-build-debug /
+
+# Плагін Mongo Explorer:
+.idea / ** / mongoSettings.xml
+
+# # Формат проекту на основі файлів:
+* .iws
+
+# # Спеціальні файли плагінів:
+
+# IntelliJ
+/ вихід /
+
+# плагін mpeltonen/sbt-idea
+.idea_modules /
+
+# Плагін JIRA
+atlassian-ide-plugin.xml
+
+# Плагін Cursive Clojure
+.idea / replstate.xml
+
+# Плагін Crashlytics (для Android Studio та IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+тканина.властивості
+
+# ## Патч PyCharm ###
+# Причина коментаря: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Плагін Sonarlint
+.idea / sonarlint
+
+# ## Python ###
+# Зібрані по байтам / оптимізовані / файли DLL
+* .py [ код ]
+* $py.class
+
+# розширення C
+* .так
+
+# Розповсюдження / упаковка
+.Python
+env /
+будувати /
+розвивати яйця /
+dist /
+завантаження /
+яйця /
+.яйця /
+lib /
+lib64 /
+частини /
+sdist /
+змінна /
+колеса /
+* .egg-info /
+.installed.cfg
+* .яйце
+
+# PyInstaller
+#   Зазвичай ці файли записуються за допомогою сценарію python із шаблону
+#   перед тим, як PyInstaller створить exe, щоб додати в нього дату/іншу інформацію.
+* .маніфест
+* .spec
+
+# Журнали інсталятора
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Звіти про модульне тестування / покриття
+htmlcov /
+.tox /
+.покриття
+.покриття. *
+.cache
+nosetests.xml
+coverage.xml
+* ,обкладинка
+.гіпотеза /
+
+# Переклади
+* .mo
+
+# Речі Django:
+
+# Речі з колби:
+примірник /
+.webassets-cache
+
+# Scrapy речі:
+.скреб
+
+# Документація Sphinx
+docs / _build /
+
+# PyBuilder
+мета /
+
+# Блокнот Юпітер
+.ipynb_checkpoints
+
+# pyenv
+.python-версія
+
+# файл розкладу перевищення селери
+celerybeat-розклад
+
+# Проаналізовані файли SageMath
+* .sage.py
+
+# dotenv
+.env
+
+# віртуальне середовище
+.venv
+venv /
+ENV /
+
+# Налаштування проекту Spyder
+.spyderproject
+.spyproject
+
+# Налаштування проекту Rope
+.ropeproject
+
+# документація mkdocs
+/ сайт
